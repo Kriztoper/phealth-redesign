@@ -1,6 +1,12 @@
+header {
+	height: 120px;
+	background-image: url("images/ph_logo.png");
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+}
 form {
-	width: 500px;
 	margin: 50px auto;
+	float: right;
 }
 .search {
 	padding: 8px 15px;
