@@ -25,3 +25,8 @@ form {
 	background-color:#fafafa;
 	color:#1FA314;
 }
+.twitter_feed {
+	width: 300px;
+	position: absolute;
+	right: 10px;
+}
