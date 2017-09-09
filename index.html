@@ -8,8 +8,8 @@
 </head>
 <body>
 	<div class=wrap style="border: 2px solid;">
-		<header style="border: solid 2px;">
-			<form>
+		<header>
+			<form id="search_form">
 				<input class="search" type="text" placeholder="Search..." required>
 				<input class="search_button" type="button" value="Search">
 			</form>
@@ -21,7 +21,17 @@
 		<section>
 			
 		</section>
-		<aside style="border: 2px solid;">
+		<aside>
+			<div id="member_inquiry">
+				<h2>Member Inquiry</h2>
+				<form id="login_form">
+					<input id="pin" type="text" placeholder="PIN" required><br/>
+					<input id="password" type="password" placeholder="Password" required><br/>
+					<input id="login_button" type="button" value="Login"><br/>
+					<a href="">Register | </a>
+					<a href="">Forgot Password?</a>
+				</form>
+			</div>
 			<div class="twitter_feed">
 				<a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/teamphilhealth">Tweets by teamphilhealth</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>

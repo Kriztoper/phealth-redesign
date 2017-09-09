@@ -4,7 +4,37 @@ header {
 	background-repeat: no-repeat;
 	background-position: 0px -100px;
 }
-form {
+nav{
+	/* Added just for visualization. Can be removed or modified. */
+	background-color: black;
+	height: 200px;
+}
+section{
+	/* Added just for visualization. Can be removed or modified. */
+	background-color: #4ccf40;
+	float: left;
+	width: 70%;
+	height: 600px;
+}
+aside{
+	background-color: #4ccf40;
+	float: right;
+	width: 30%;
+}
+form{
+	background-color: white;
+}
+input[type=button]{
+	padding: 6px 15px;
+	background-color:#1FA314;
+	color:#fafafa;
+	border:2px solid #1FA314;
+}	
+input[type=button]:hover{
+	background-color:#fafafa;
+	color:#1FA314;
+}
+#search_form{
 	margin: 50px auto;
 	float: right;
 }
@@ -15,18 +45,47 @@ form {
 }
 .search_button {
 	position: relative;
-	padding: 6px 15px;
 	left: -8px;
-	border:2px solid #1FA314;
-	background-color:#1FA314;
-	color:#fafafa;
-}
-.search_button:hover {
-	background-color:#fafafa;
-	color:#1FA314;
 }
 .twitter_feed {
-	width: 300px;
-	position: absolute;
-	right: 10px;
+	padding: 10px;
+	text-align: center;
+	border-left: 1px solid #7b7b7b;
+	border-bottom: 2px solid white;
+	position: relative;
+}
+#member_inquiry{
+	padding: 10px;
+	border-left: 1px solid #7b7b7b;
+	border-bottom: 2px solid white;
+}
+h2{
+	margin: 10px, 0px, 10px, 10px;
+	color: white;
+}
+#login_form{
+	padding: 15px;
+}
+#pin{
+	align-content: center;
+	margin: 5px;
+	width: 90%;
+	height: 30px;
+	border-radius: 5px;
+	border-style: 1px solid #d1d1d1;
+}
+#password{
+	margin: 5px;
+	width: 90%;	
+	height: 30px;
+	border-radius: 5px;
+	border-style: 1px solid #d1d1d1;
+}
+#login_button{
+	width: 100px;
+	margin: 5px;
+}
+a:link{
+	margin: 5px;
+	text-decoration: none;
 }
