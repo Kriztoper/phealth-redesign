@@ -29,4 +29,31 @@ form {
 	width: 300px;
 	position: absolute;
 	right: 10px;
+	top: 550px;
+}
+.news {
+	font-family: "Ubuntu";
+	color:#fafafa;
+}
+.news_feed {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	right: 10px;
+	background-color: #1FA314;
+}
+.more_news {
+	position: relative;
+	padding: 6px 15px;
+	left: -8px;
+	border:2px solid #1FA314;
+	background-color:#1FA314;
+	color:#fafafa;
+	float: right;
+	margin-right: 10px;
+	border-color: #fafafa;
+}
+.more_news:hover {
+	background-color:#fafafa;
+	color:#1FA314;
 }
