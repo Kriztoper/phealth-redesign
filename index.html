@@ -5,6 +5,7 @@
 	<title>Philippine Health Insurance Corporation</title>
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -12,7 +13,7 @@
 <body>
 	<div class=wrap>
 		<header>
-			<form>
+			<form id="search_form">
 				<input class="search" type="text" placeholder="Search..." required>
 				<input class="search_button" type="button" value="Search">
 			</form>
@@ -34,12 +35,10 @@
 	      			<div class="item">
 	        			<img src="images/b3.jpg">
 	      			</div>
-	    
 	      			<div class="item">
 	        			<img src="images/b7.jpg">
 	      			</div>
     			</div>
-    	
 	    		<!-- Left and right controls -->
 	    		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 	      			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -55,6 +54,16 @@
 			
 		</section>
 		<aside>
+			<div id="member_inquiry">
+				<h2 id="inq_label">Member Inquiry</h2>
+				<form id="login_form">
+					<input id="pin" type="text" placeholder="PIN" required><br/><br/>
+					<input id="password" type="password" placeholder="Password" required><br/><br/>
+					<input id="login_button" type="button" value="Login"><br/><br/>
+					<a href="">Register </a>|
+					<a href="">Forgot Password?</a>
+				</form>
+			</div>
 			<div class="twitter_feed">
 				<a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/teamphilhealth">Tweets by teamphilhealth</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>

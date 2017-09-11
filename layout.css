@@ -8,7 +8,32 @@ header {
 	background-repeat: no-repeat;
 	background-position: 0px -100px;
 }
-form {
+section{
+	background-color: #4ccf40;
+	width: 76%;
+	float: left;
+	height: 600px;
+}
+aside{
+	background-color: #4ccf40;
+	width: 24%;
+	float: right;
+	font-family: Ubuntu;
+}
+form{
+	background-color: white;
+}
+input[type=button]{
+	padding: 6px 15px;
+	background-color:#1FA314;
+	color:#fafafa;
+	border:2px solid #1FA314;
+}	
+input[type=button]:hover{
+	background-color:#fafafa;
+	color:#1FA314;
+}
+#search_form{
 	margin: 50px auto;
 	float: right;
 }
@@ -19,18 +44,52 @@ form {
 }
 .search_button {
 	position: relative;
-	padding: 6px 15px;
 	left: -8px;
-	border:2px solid #1FA314;
-	background-color:#1FA314;
-	color:#fafafa;
-}
-.search_button:hover {
-	background-color:#fafafa;
-	color:#1FA314;
 }
 .twitter_feed {
 	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-top: 1px solid white;
+}
+#member_inquiry{
+	font:inherit;
+	border:none;
+}
+#inq_label{
+	position: relative;
+	top: -5px;
+	font-size: 22px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: white;
+}
+#login_form{
+	position: relative;
+	top: -15px;
+	margin: auto;
+	padding: 15px;
+	width: 270px;
+	border-radius: 5px;
+}
+#pin{
+	width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+}
+#password{
+	width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+}
+#login_button{
 	position: absolute;
-	right: 10px;
+	top: 130px;
+	width: 100px;
+}
+a:link{
+	text-decoration: none;
 }
