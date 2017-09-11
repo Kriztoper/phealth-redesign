@@ -1,16 +1,14 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ 	width: 70%;
+ 	margin: auto;
+}
 header {
 	height: 120px;
 	background-image: url("images/ph_logo.png");
 	background-repeat: no-repeat;
 	background-position: 0px -100px;
 }
-nav{
-	/* Added just for visualization. Can be removed or modified. */
-	background-color: black;
-	height: 200px;
-}
 section{
-	/* Added just for visualization. Can be removed or modified. */
 	background-color: #4ccf40;
 	width: 76%;
 	float: left;
