@@ -12,15 +12,15 @@ nav{
 section{
 	/* Added just for visualization. Can be removed or modified. */
 	background-color: #4ccf40;
+	width: 76%;
 	float: left;
-	width: 70%;
 	height: 600px;
 }
 aside{
 	background-color: #4ccf40;
-	font-family: Ubuntu, Sans, Serif, Monospace;
+	width: 24%;
 	float: right;
-	width: 30%;
+	font-family: Ubuntu;
 }
 form{
 	background-color: white;
@@ -49,36 +49,41 @@ input[type=button]:hover{
 	left: -8px;
 }
 .twitter_feed {
-	padding: 20px;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	text-align: center;
-	border-left: 1px solid #7b7b7b;
-	border-bottom: 2px solid white;
+	border-top: 1px solid white;
 }
 #member_inquiry{
 	font:inherit;
-	padding: 30px;
-	border-left: 1px solid #7b7b7b;
-	border-bottom: 2px solid white;
+	border:none;
 }
-h2{
-	font-size: 25px;
-	text-align: center;
+#inq_label{
+	position: relative;
+	top: -5px;
+	font-size: 22px;
+	padding-left: 10px;
+	font-weight: bold;
 	color: white;
 }
 #login_form{
 	position: relative;
+	top: -15px;
 	margin: auto;
 	padding: 15px;
-	width: 300px;
+	width: 270px;
 	border-radius: 5px;
 }
 #pin{
-	width: 280px;
+	width: 250px;
 	padding: 8px;
 	border-radius: 5px;
 }
 #password{
-	width: 280px;
+	width: 250px;
 	padding: 8px;
 	border-radius: 5px;
 }
