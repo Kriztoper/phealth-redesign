@@ -18,6 +18,7 @@ section{
 }
 aside{
 	background-color: #4ccf40;
+	font-family: Ubuntu, Sans, Serif, Monospace;
 	float: right;
 	width: 30%;
 }
@@ -48,44 +49,44 @@ input[type=button]:hover{
 	left: -8px;
 }
 .twitter_feed {
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
 	border-left: 1px solid #7b7b7b;
 	border-bottom: 2px solid white;
-	position: relative;
 }
 #member_inquiry{
-	padding: 10px;
+	font:inherit;
+	padding: 30px;
 	border-left: 1px solid #7b7b7b;
 	border-bottom: 2px solid white;
 }
 h2{
-	margin: 10px, 0px, 10px, 10px;
+	font-size: 25px;
+	text-align: center;
 	color: white;
 }
 #login_form{
+	position: relative;
+	margin: auto;
 	padding: 15px;
+	width: 300px;
+	border-radius: 5px;
 }
 #pin{
-	align-content: center;
-	margin: 5px;
-	width: 90%;
-	height: 30px;
+	width: 280px;
+	padding: 8px;
 	border-radius: 5px;
-	border-style: 1px solid #d1d1d1;
 }
 #password{
-	margin: 5px;
-	width: 90%;	
-	height: 30px;
+	width: 280px;
+	padding: 8px;
 	border-radius: 5px;
-	border-style: 1px solid #d1d1d1;
 }
 #login_button{
+	position: absolute;
+	top: 130px;
 	width: 100px;
-	margin: 5px;
 }
 a:link{
-	margin: 5px;
 	text-decoration: none;
 }
