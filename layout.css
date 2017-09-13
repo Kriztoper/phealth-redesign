@@ -28,9 +28,8 @@ form {
 ul {
     list-style-type: none;
     margin: 0, auto;
+	padding: 1px;
     overflow: hidden;
- 
-	
 }
 li {
 	
@@ -42,7 +41,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    width: 320px;
+	width: 336px;
 	line-height: 40px;
 	height:40px;
     text-decoration: none;
