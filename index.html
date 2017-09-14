@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -68,6 +70,122 @@
 				<a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/teamphilhealth">Tweets by teamphilhealth</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</aside>
+		<div class="jumbotron jumbotron-sm">
+    <div class="contact">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contact us <small>Feel free to contact us</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+    	<div class="col-md-8"> <!--map location-->
+                <address>
+                	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.3820475875473!2d121.06066561457172!3d14.577293089817308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c86acad8d643%3A0x70d5948dc1eca319!2sPhilHealth!5e0!3m2!1sen!2sph!4v1505293379735" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </address>
+        </div>
+        <div class="col-md-4">
+         
+            <legend><span class="glyphicon glyphicon-globe"></span> Our Main Office</legend>
+            <address>
+                <strong>PhilHealth, Inc.</strong><br>
+               21f Meralco Ave, Ortigas Center, Pasig,
+				<br>
+                 1605 Metro Manila Philippines<br>  
+            </address>
+             <legend><span class="glyphicon glyphicon-home"></span> Other Branches</legend>
+            <address>
+                <strong>Luzon</strong><br>
+              	 <a href="http://www.facebook.com">North</a>,
+              	 <a href="http://www.facebook.com">West</a>, 
+              	 <a href="http://www.facebook.com">East</a>, 
+              	 <a href="http://www.facebook.com">East</a>  
+				<br>
+                 <strong>Visayas</strong><br>
+             	 <a href="http://www.facebook.com">North</a>,
+              	 <a href="http://www.facebook.com">West</a>, 
+              	 <a href="http://www.facebook.com">East</a>, 
+              	 <a href="http://www.facebook.com">East</a>  
+				<br>
+                 <strong>Mindanao</strong><br>
+              	 <a href="http://www.facebook.com">North</a>,
+              	 <a href="http://www.facebook.com">West</a>, 
+              	 <a href="http://www.facebook.com">East</a>, 
+              	 <a href="http://www.facebook.com">East</a>  
+				<br>
+            </address>
+             <legend><span class="glyphicon glyphicon-earphone"></span> Numbers</legend>
+             <address>
+             		<strong>Call Center</strong><br>
+                	(02) 441-7444<br>
+                	<strong>Trunk Line</strong><br>
+                	(02) 441-7442
+             </address>
+        </div>
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Client Service</option>
+                                <option value="suggestions">Suggestions</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+              <legend><span class="glyphicon glyphicon-user"></span> Social Media</legend>
+           		<address>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+           		</address>
+           	  <legend><span class="glyphicon glyphicon-unchecked"></span> Seals</legend>
+           	  <address>
+           	  	<img src="images/seal1.png" style="width:128px;height:128px;">
+           	  	<img src="images/seal2.png" style="width:128px;height:128px;">
+           	  </address>
+            </form>
+        </div>
+    </div>
+</div>
 		<footer>
 			
 		</footer>
