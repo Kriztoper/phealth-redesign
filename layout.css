@@ -12,7 +12,7 @@ section{
 	background-color: #4ccf40;
 	width: 76%;
 	float: left;
-	height: 600px;
+	min-height: 1000px;
 }
 aside{
 	background-color: #4ccf40;
@@ -64,31 +64,31 @@ input[type=button]:hover{
 	position: relative;
 	top: -5px;
 	font-size: 22px;
-	padding-left: 10px;
+	padding-left: 20px;
 	font-weight: bold;
 	color: white;
 }
 #login_form{
 	position: relative;
-	top: -15px;
+	top: -10px;
 	margin: auto;
 	padding: 15px;
 	width: 270px;
 	border-radius: 5px;
 }
 #pin{
-	width: 250px;
+	width: 240px;
 	padding: 8px;
 	border-radius: 5px;
 }
 #password{
-	width: 250px;
+	width: 240px;
 	padding: 8px;
 	border-radius: 5px;
 }
 #login_button{
 	position: absolute;
-	right: 10px;
+	right: 15px;
 	top: 130px;
 	width: 100px;
 }
@@ -136,6 +136,7 @@ a:link{
 .h1 small {
 	font-size: 24px;
 }
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -161,4 +162,24 @@ a:link{
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+#news_section {
+	width: 304px;
+	top: 10px;
+	padding-left: 20px;
+	padding-right: 13px;
+}
+.panel-heading {
+	width: 270px;
+}
+.panel-body {
+	width: 270px;
+}
+.panel-footer {
+	width: 270px;
+}
+#demo3 {
+	padding-left: 15px;
+	overflow-y: auto; 
+	height: 210px;
 }
