@@ -1,3 +1,6 @@
+body {
+	min-width: 1000px;
+}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
  	width: 70%;
  	margin: auto;
@@ -47,13 +50,15 @@ input[type=button]:hover{
 	left: -8px;
 }
 .twitter_feed {
-	width: 300px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 15px;
 	padding-bottom: 10px;
 	text-align: center;
+	height: 693px;
 	position: relative;
+	top: 20px;
 }
 #member_inquiry{
 	font:inherit;
@@ -67,6 +72,8 @@ input[type=button]:hover{
     position: relative;
     padding-left: 20px;
     padding-right: 18px;
+    border-bottom: 1px solid white;
+    height: 358px;
 }
 #inq_label{
 	position: relative;
@@ -78,19 +85,20 @@ input[type=button]:hover{
 }
 #login_form{
 	position: relative;
-	top: -10px;
-	margin: auto;
-	padding: 15px;
-	width: 270px;
-	border-radius: 5px;
+    top: -10px;
+    margin-left: 6.48%;
+    margin-right: 6.48%;
+    padding: 5.55%;
+    width: 88.88%;
+    border-radius: 5px;
 }
 #pin{
-	width: 240px;
+	width: 100%;
 	padding: 8px;
 	border-radius: 5px;
 }
 #password{
-	width: 240px;
+	width: 100%;
 	padding: 8px;
 	border-radius: 5px;
 }
@@ -157,13 +165,13 @@ a:link{
     color: white;
 }
 .panel-heading {
-	width: 270px;
+	width: inherit;
 }
 .panel-body {
-	width: 270px;
+	width: inherit;
 }
 .panel-footer {
-	width: 270px;
+	width: inherit;
 }
 #demo3 {
 	padding-left: 15px;
