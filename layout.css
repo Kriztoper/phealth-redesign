@@ -34,6 +34,7 @@ ul {
 li {
 	
 	float: left;
+	width: 25%;
 }
 
 
@@ -41,7 +42,6 @@ li a {
     display: block;
     color: white;
     text-align: center;
-	width: 336px;
 	line-height: 40px;
 	height:40px;
     text-decoration: none;
