@@ -53,12 +53,20 @@ input[type=button]:hover{
 	padding-top: 15px;
 	padding-bottom: 10px;
 	text-align: center;
-	border-top: 1px solid white;
+	position: relative;
 }
-
 #member_inquiry{
 	font:inherit;
 	border:none;
+	border-bottom: 1px solid white;
+}
+#news_section {
+	border: none;
+    width: 100%;
+    top: 10px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 18px;
 }
 #inq_label{
 	position: relative;
@@ -102,21 +110,6 @@ input[type=button]:hover{
 	position: absolute;
 	right: 10px;
 	background-color: #1FA314;
-}
-.more_news {
-	position: relative;
-	padding: 6px 15px;
-	left: -8px;
-	border:2px solid #1FA314;
-	background-color:#1FA314;
-	color:#fafafa;
-	float: right;
-	margin-right: 10px;
-	border-color: #fafafa;
-}
-.more_news:hover {
-	background-color:#fafafa;
-	color:#1FA314;
 }
 a:link{
 	text-decoration: none;
@@ -162,12 +155,6 @@ a:link{
 .fa-twitter {
     background: #55ACEE;
     color: white;
-}
-#news_section {
-	width: 304px;
-	top: 10px;
-	padding-left: 20px;
-	padding-right: 13px;
 }
 .panel-heading {
 	width: 270px;
