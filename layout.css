@@ -46,10 +46,13 @@ input[type=button]:hover{
 	position: relative;
 	left: -8px;
 }
+#menu-buttons {
+	margin-bottom: 0px;
+}
 ul {
     width: 100%;
     list-style-type: none;
-    margin: 0, auto;
+    margin: auto;
 	padding: 1px;
     overflow: hidden;
 }
