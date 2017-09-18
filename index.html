@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Philippine Health Insurance Corporation</title>
-	<link rel="icon" href="images/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="layout.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<title>Philippine Health Insurance Corporation</title>
+  	<link rel="icon" href="images/favicon.ico">
+  	<link rel="stylesheet" type="text/css" href="layout.css">
+  	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class=wrap>
@@ -23,10 +20,10 @@
 		</header>
 		<nav>
 			<ul id="menu-buttons">
-				<li><a href="about_us/">About Us</a></li>
-				<li><a href="partners/">Corporate Partners</a></li> 
-				<li><a href="services/">Online Services</a></li>
-				<li><a href="downloads/">Downloads</a></li>
+				<li class="li-menu-buttons"><a class="a-menu-buttons" href="about_us/">About Us</a></li>
+				<li class="li-menu-buttons"><a class="a-menu-buttons" href="partners/">Corporate Partners</a></li> 
+				<li class="li-menu-buttons"><a class="a-menu-buttons" href="services/">Online Services</a></li>
+				<li class="li-menu-buttons"><a class="a-menu-buttons" href="downloads/">Downloads</a></li>
 			</ul>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
     			<!-- Indicators -->
@@ -72,6 +69,36 @@
 					<a href="">Forgot Password?</a>
 				</form>
 			</div>
+			<div class="col-md-4" id="news_section">
+          <div class="panel panel-default">
+            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <ul id="demo3">
+                    <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas at magna accumsan,
+                            rhoncus neque id, fringilla dolor. <a href="#">Read more...</a></li>
+                    <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas at magna accumsan,
+                          rhoncus neque id, fringilla dolor. <a href="#">Read more...</a></li>
+                    <li class="news-item">Praesent ornare nisl lorem, ut condimentum lectus gravida ut. Ut velit nunc, vehicula
+                                          volutpat laoreet vel, consequat eu mauris. <a href="#">Read more...</a></li>
+                    <li class="news-item" style="display: none;">Nunc ultrices tortor eu massa placerat posuere. Vivamus viverra sagittis nunc. Nunc
+                                          et imperdiet magna. Mauris sed eros nulla. <a href="#">Read more...</a></li>
+                    <li class="news-item" style="display: none;">Morbi sodales tellus sit amet leo congue bibendum. Ut non mauris eu neque fermentum
+                                          pharetra. <a href="#">Read more...</a></li>
+                    <li class="news-item" style="display: none;">In pharetra suscipit orci sed viverra. Praesent at sollicitudin tortor, id sagittis
+                                          magna. Fusce massa sem, bibendum id. <a href="#">Read more...</a> </li>
+                    <li class="news-item" style="display: none;">Maecenas nec ligula sed est suscipit aliquet sed eget ipsum. Suspendisse id auctor
+                                          nibh. Ut porttitor volutpat augue, non sodales odio dignissi id. <a href="#">Read more...</a></li>
+                    <li class="news-item" style="display: none;">Onec bibendum consectetur diam, nec euismod urna venenatis eget. Cras consequat
+                                          convallis leo. <a href="#">Read more...</a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer"> <ul class="pagination pull-right" style="margin: 0px;"><li><a href="#" class="prev"><span class="glyphicon glyphicon-chevron-down"></span></a></li><li><a href="#" class="next"><span class="glyphicon glyphicon-chevron-up"></span></a></li></ul><div class="clearfix"></div></div>
+          </div>
+        </div>
 			<div class="twitter_feed">
 				<a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/teamphilhealth">Tweets by teamphilhealth</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
@@ -172,10 +199,10 @@
                         <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
                             Send Message</button>
                     </div>
-                </div>
-                </form>
-            </div>
-        </div>
+                  </div>
+                  </form>
+              </div>
+          </div>
         <div class="col-md-4">
             <form>
               <legend><span class="glyphicon glyphicon-user"></span> Social Media</legend>
@@ -200,5 +227,7 @@
         <button onclick="topFunction()" id="toTopBtn">Back to Top</button>
     </div>
 	<script src="scrollUp.js"> </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
