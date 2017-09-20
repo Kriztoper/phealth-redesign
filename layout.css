@@ -229,3 +229,19 @@ button#toTopBtn{
 #twitter-link {
 	border-radius: 50%;
 }
+#btnContactUs {
+	padding: 6px 15px;
+	background-color:#1FA314;
+	color:#fafafa;
+	border:2px solid #1FA314;
+}
+#btnContactUs:hover {
+	background-color:#fafafa;
+	color:#1FA314;
+}
+#news-prev-btn {
+	color: #1FA314;
+}
+#news-next-btn {
+	color: #1FA314;
+}
