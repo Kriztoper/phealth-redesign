@@ -223,3 +223,9 @@ button#toTopBtn{
 	overflow-y: auto; 
 	height: 210px;
 }
+#fb-link {
+	border-radius: 50%;
+}
+#twitter-link {
+	border-radius: 50%;
+}
