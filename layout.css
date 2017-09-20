@@ -75,17 +75,6 @@ input[type=button]:hover{
 .a-menu-buttons:hover {
     background-color: #1FA314;
 }
-.twitter_feed {
-	width: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-	text-align: center;
-	height: 693px;
-	position: relative;
-	top: 20px;
-}
 #member_inquiry{
 	font:inherit;
 	border:none;
@@ -138,12 +127,20 @@ input[type=button]:hover{
 	font-family: "Ubuntu";
 	color:#fafafa;
 }
-.news_feed {
+.news-timeline {
 	width: 300px;
 	height: 400px;
 	position: absolute;
 	right: 10px;
 	background-color: #1FA314;
+}
+iframe#twitter-widget-0.twitter-timeline.twitter-timeline-rendered {
+	position: relative !important;
+	top: 20px !important;
+	width: 100% !important;
+	height: 358px !important;
+	padding-left: 20px !important;
+	padding-right: 18px !important;
 }
 a:link{
 	text-decoration: none;
@@ -217,6 +214,7 @@ button#toTopBtn{
 }
 .panel-footer {
 	width: inherit;
+	text-align: right;
 }
 #demo3 {
 	padding-left: 15px;
@@ -228,4 +226,26 @@ button#toTopBtn{
 }
 #twitter-link {
 	border-radius: 50%;
+}
+#btnContactUs {
+	padding: 6px 15px;
+	background-color:#1FA314;
+	color:#fafafa;
+	border:2px solid #1FA314;
+}
+#btnContactUs:hover {
+	background-color:#fafafa;
+	color:#1FA314;
+}
+#news-prev-btn {
+	color: #1FA314;
+}
+#news-next-btn {
+	color: #1FA314;
+}
+#news-panel-heading {
+	padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 21px;
+    font-weight: normal;
 }
