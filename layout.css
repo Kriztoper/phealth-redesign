@@ -15,14 +15,14 @@ section{
 	background-color: #4ccf40;
 	width: 76%;
 	float: left;
-	min-height: 1000px;
+	min-height: 1020px;
 }
 aside{
 	background-color: #4ccf40;
 	width: 24%;
 	float: right;
 	font-family: Ubuntu;
-	min-height: 1000px;
+	min-height: 1020px;
 }
 form{
 	background-color: white;
