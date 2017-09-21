@@ -2,8 +2,7 @@ body {
 	min-width: 1000px;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
- 	width: 70%;
- 	margin: auto;
+ 	width: 100%;
 }
 header {
 	height: 120px;
@@ -141,6 +140,11 @@ iframe#twitter-widget-0.twitter-timeline.twitter-timeline-rendered {
 	height: 358px !important;
 	padding-left: 20px !important;
 	padding-right: 18px !important;
+}
+a#twitter-timeline.twitter-timeline {
+	position: relative;
+    top: 20px;
+    left: 20px;
 }
 a:link{
 	text-decoration: none;
