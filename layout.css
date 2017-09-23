@@ -162,6 +162,12 @@ button#toTopBtn{
 	border:none;
 }
 
+button#toTopBtn:hover{ 
+	background-color:#fafafa; 
+	color:#1FA314; 
+	border:2px solid #1FA314; 
+  } 
+
 .fixed-action-btn {
     position: fixed;
     right: 23px;
