@@ -60,6 +60,7 @@ input[type=button]:hover{
 .li-menu-buttons {
 	float: left;
 	width: 25%;
+	border: 2px solid #1FA314;
 }
 .a-menu-buttons {
     display: block;
@@ -68,11 +69,12 @@ input[type=button]:hover{
 	line-height: 40px;
 	height:40px;
     text-decoration: none;
-	background-color: #4CAF50;
-	border-radius: 5px 2px 5px 2px;
+	background-color: #1FA314;
+	/*border-radius: 5px 2px 5px 2px;*/
 }
 .a-menu-buttons:hover {
-    background-color: #1FA314;
+    background-color: white;
+    text-decoration: none;
 }
 #member_inquiry{
 	font:inherit;
