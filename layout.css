@@ -70,10 +70,10 @@ input[type=button]:hover{
 	height:40px;
     text-decoration: none;
 	background-color: #1FA314;
-	/*border-radius: 5px 2px 5px 2px;*/
 }
 .a-menu-buttons:hover {
-    background-color: white;
+    background-color:#fafafa;
+	color:#1FA314;
     text-decoration: none;
 }
 #member_inquiry{
