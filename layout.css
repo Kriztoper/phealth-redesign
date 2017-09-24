@@ -239,9 +239,10 @@ button#toTopBtn{
 	color:#fafafa;
 	border:2px solid #1FA314;
 }
-#btnContactUs:hover {
-	background-color:#fafafa;
-	color:#1FA314;
+button#toTopBtn:hover{ 
+	background-color:#fafafa; 
+	color:#1FA314; 
+	border:2px solid #1FA314; 
 }
 #news-prev-btn {
 	color: #1FA314;
@@ -292,4 +293,18 @@ p.card-text {
     padding: 5px;
     padding-left: 20px;
     display: flex;
+}
+div.col-sm-12.col-lg-12 {
+	background-color: #fafafa;
+}
+div.col-sm-12.col-lg-12 > h1.h1 {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    font-size: xx-large;
+    text-align: center;
+}
+div.jumbotron.jumbotron-sm {
+	padding: unset;
+	margin: unset;
 }
