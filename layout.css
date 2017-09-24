@@ -255,3 +255,41 @@ button#toTopBtn{
     font-size: 21px;
     font-weight: normal;
 }
+.card {
+	height: 220px;
+	margin-bottom: 25px;
+	background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-fluid {
+	display: flex;
+    flex-direction: column;
+}
+img.card-img-top {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+a.h3.card-title {
+	padding: 10px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    color: #4CA3E3;
+    font-weight: 600;
+}
+div.card-text {
+    /*top: 20px;*/
+    /*padding: 5px;*/
+    position: relative;
+    display: flow-root;
+    font-family: "Ubuntu";
+}
+p.card-text {
+	position: relative;
+    top: 20px; 
+    padding: 5px;
+    padding-left: 20px;
+    display: flex;
+}
