@@ -1,3 +1,6 @@
+* {
+	font-family: "Ubuntu";
+}
 body {
 	min-width: 1000px;
 }
@@ -20,7 +23,7 @@ aside{
 	background-color: #4ccf40;
 	width: 24%;
 	float: right;
-	font-family: Ubuntu;
+	font-family: "Ubuntu";
 	min-height: 1020px;
 }
 form{
@@ -44,6 +47,7 @@ input[type=button]:hover{
 	padding: 8px 15px;
 	background:rgba(50, 50, 50, 0.2);
 	border:0px solid #dbdbdb;
+	font-family: "Ubuntu";
 }
 .search_button {
 	position: relative;
@@ -160,6 +164,8 @@ button#toTopBtn{
 	background-color: #1FA314;
 	outline: none;
 	border:none;
+
+	font-family: "Ubuntu";
 }
 
 .fixed-action-btn {
@@ -238,6 +244,10 @@ button#toTopBtn{
 	background-color:#1FA314;
 	color:#fafafa;
 	border:2px solid #1FA314;
+}
+button#btnContactUs:hover{ 
+	background-color:#fafafa; 
+	color:#1FA314; 
 }
 button#toTopBtn:hover{ 
 	background-color:#fafafa; 
