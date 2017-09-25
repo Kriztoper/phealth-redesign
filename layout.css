@@ -266,16 +266,23 @@ button#toTopBtn:hover{
     font-size: 21px;
     font-weight: normal;
 }
+#first-card {
+	margin-top: 15px;
+}
 .card {
 	height: 220px;
 	margin-bottom: 25px;
 	background-color: #fafafa;
     padding: 10px;
     border-radius: 5px;
+    border: 1px solid;
 }
-.container-fluid {
+div.container-fluid {
 	display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 img.card-img-top {
 	float: left;
