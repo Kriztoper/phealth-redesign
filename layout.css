@@ -59,7 +59,7 @@ input[type=button]:hover{
     list-style-type: none;
     margin: auto;
 	padding: 1px;
-    overflow: hidden;
+	overflow: hidden;
 }
 .li-menu-buttons {
 	float: left;
